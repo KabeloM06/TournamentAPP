@@ -135,7 +135,7 @@
             // 
             // firstNameValue
             // 
-            this.firstNameValue.Location = new System.Drawing.Point(124, 49);
+            this.firstNameValue.Location = new System.Drawing.Point(124, 41);
             this.firstNameValue.Name = "firstNameValue";
             this.firstNameValue.Size = new System.Drawing.Size(217, 39);
             this.firstNameValue.TabIndex = 10;
@@ -145,7 +145,7 @@
             this.firstNameLabel.AutoSize = true;
             this.firstNameLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.firstNameLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.firstNameLabel.Location = new System.Drawing.Point(5, 47);
+            this.firstNameLabel.Location = new System.Drawing.Point(5, 45);
             this.firstNameLabel.Name = "firstNameLabel";
             this.firstNameLabel.Size = new System.Drawing.Size(113, 30);
             this.firstNameLabel.TabIndex = 9;
@@ -153,7 +153,7 @@
             // 
             // surnameValue
             // 
-            this.surnameValue.Location = new System.Drawing.Point(124, 90);
+            this.surnameValue.Location = new System.Drawing.Point(124, 86);
             this.surnameValue.Name = "surnameValue";
             this.surnameValue.Size = new System.Drawing.Size(217, 39);
             this.surnameValue.TabIndex = 12;
@@ -163,7 +163,7 @@
             this.surnameLabel.AutoSize = true;
             this.surnameLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.surnameLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.surnameLabel.Location = new System.Drawing.Point(5, 88);
+            this.surnameLabel.Location = new System.Drawing.Point(5, 90);
             this.surnameLabel.Name = "surnameLabel";
             this.surnameLabel.Size = new System.Drawing.Size(95, 30);
             this.surnameLabel.TabIndex = 11;
@@ -181,7 +181,7 @@
             this.emailLabel.AutoSize = true;
             this.emailLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.emailLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.emailLabel.Location = new System.Drawing.Point(5, 129);
+            this.emailLabel.Location = new System.Drawing.Point(5, 135);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(63, 30);
             this.emailLabel.TabIndex = 13;
@@ -189,7 +189,7 @@
             // 
             // cellValue
             // 
-            this.cellValue.Location = new System.Drawing.Point(124, 172);
+            this.cellValue.Location = new System.Drawing.Point(124, 176);
             this.cellValue.Name = "cellValue";
             this.cellValue.Size = new System.Drawing.Size(217, 39);
             this.cellValue.TabIndex = 16;
@@ -199,7 +199,7 @@
             this.cellLabel.AutoSize = true;
             this.cellLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cellLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.cellLabel.Location = new System.Drawing.Point(5, 170);
+            this.cellLabel.Location = new System.Drawing.Point(5, 180);
             this.cellLabel.Name = "cellLabel";
             this.cellLabel.Size = new System.Drawing.Size(47, 30);
             this.cellLabel.TabIndex = 15;
