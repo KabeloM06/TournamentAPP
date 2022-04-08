@@ -144,7 +144,7 @@
             this.createPrizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createPrizeButton.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.createPrizeButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.createPrizeButton.Location = new System.Drawing.Point(76, 336);
+            this.createPrizeButton.Location = new System.Drawing.Point(86, 336);
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(264, 56);
             this.createPrizeButton.TabIndex = 26;
