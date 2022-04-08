@@ -37,7 +37,7 @@
             this.prizeAmountLabel = new System.Windows.Forms.Label();
             this.prizePercentageValue = new System.Windows.Forms.TextBox();
             this.prizePercantageLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.orLabel = new System.Windows.Forms.Label();
             this.createPrizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -124,17 +124,17 @@
             this.prizePercantageLabel.TabIndex = 19;
             this.prizePercantageLabel.Text = "Prize Percentage";
             // 
-            // label1
+            // orLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(172, 214);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 30);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "-OR-";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.orLabel.AutoSize = true;
+            this.orLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.orLabel.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.orLabel.Location = new System.Drawing.Point(172, 214);
+            this.orLabel.Name = "orLabel";
+            this.orLabel.Size = new System.Drawing.Size(58, 30);
+            this.orLabel.TabIndex = 21;
+            this.orLabel.Text = "-OR-";
+            this.orLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // createPrizeButton
             // 
@@ -158,7 +158,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(437, 418);
             this.Controls.Add(this.createPrizeButton);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.orLabel);
             this.Controls.Add(this.prizePercentageValue);
             this.Controls.Add(this.prizePercantageLabel);
             this.Controls.Add(this.prizeAmountValue);
@@ -189,7 +189,7 @@
         private Label prizeAmountLabel;
         private TextBox prizePercentageValue;
         private Label prizePercantageLabel;
-        private Label label1;
+        private Label orLabel;
         private Button createPrizeButton;
     }
 }
