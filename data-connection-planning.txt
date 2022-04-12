@@ -1,0 +1,8 @@
+
+How do we get the connection information?
+How do we connect to two diffent data sources to do the same task?
+
+
+
+Static class for data source info
+Interface for data sources
