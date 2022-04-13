@@ -8,18 +8,27 @@ namespace TrackerLibrary
 {
     public static class GlobalConfig
     {
-        public static List<IDataConnection> Connections { get; private set; }
+        public static List<IDataConnection> Connections { get; private set; } = new List<IDataConnection>();
 
         public static void InitializeConnections(bool database, bool textFiles)
         {
             if (database == true)
             {
-                // TODO - Create the SQL Connection
+                // Create the SQL Connection
+                // TODO - Set up the SQL connector properly
+                SqlConnector sql = new SqlConnector();
+                Connections.Add(sql);
             }
+
+            /// New if statement because else statement would ignore the creation
+            /// of a text file if the SQL connection was created
+            /// 
 
             if (textFiles == true)
             {
                 // TODO - Create the Text Connection
+                TextConnection text = new TextConnection();
+                Connections.Add(text);
             }
         }
     }
