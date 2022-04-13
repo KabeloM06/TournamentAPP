@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.headerLabel = new System.Windows.Forms.Label();
-            this.firstNameValue = new System.Windows.Forms.TextBox();
+            this.placeNumberValue = new System.Windows.Forms.TextBox();
             this.placeNumberLabel = new System.Windows.Forms.Label();
             this.placeNameValue = new System.Windows.Forms.TextBox();
             this.placeNameLabel = new System.Windows.Forms.Label();
@@ -52,12 +52,12 @@
             this.headerLabel.TabIndex = 12;
             this.headerLabel.Text = "Create Prize";
             // 
-            // firstNameValue
+            // placeNumberValue
             // 
-            this.firstNameValue.Location = new System.Drawing.Point(194, 75);
-            this.firstNameValue.Name = "firstNameValue";
-            this.firstNameValue.Size = new System.Drawing.Size(217, 35);
-            this.firstNameValue.TabIndex = 14;
+            this.placeNumberValue.Location = new System.Drawing.Point(194, 75);
+            this.placeNumberValue.Name = "placeNumberValue";
+            this.placeNumberValue.Size = new System.Drawing.Size(217, 35);
+            this.placeNumberValue.TabIndex = 14;
             // 
             // placeNumberLabel
             // 
@@ -150,6 +150,7 @@
             this.createPrizeButton.TabIndex = 26;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
@@ -165,7 +166,7 @@
             this.Controls.Add(this.prizeAmountLabel);
             this.Controls.Add(this.placeNameValue);
             this.Controls.Add(this.placeNameLabel);
-            this.Controls.Add(this.firstNameValue);
+            this.Controls.Add(this.placeNumberValue);
             this.Controls.Add(this.placeNumberLabel);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -181,7 +182,7 @@
         #endregion
 
         private Label headerLabel;
-        private TextBox firstNameValue;
+        private TextBox placeNumberValue;
         private Label placeNumberLabel;
         private TextBox placeNameValue;
         private Label placeNameLabel;
