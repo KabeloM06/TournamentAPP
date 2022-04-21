@@ -13,8 +13,12 @@ namespace TrackerLibrary.DataAccess
 
         public PrizeModel CreatePrize(PrizeModel model)
         {
-            model.Id = 1;
-            return model;
+            // Load the text file
+            //Convert the text to List<PrizeModel>
+            // Find the max ID
+            // Add the new record with the new ID (max + 1)
+            // Convert the prizesto list<string>
+            // Save the List<strng> to the text file
         }
     }
 }
