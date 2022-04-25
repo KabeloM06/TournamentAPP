@@ -23,7 +23,14 @@ namespace TrackerLibrary.DataAccess
 
             // Find the max ID
             // order the list by ID in descending order then increament ID for new ID
-            int currentId = prizes.OrderByDescending(x => x.Id).First().Id + 1;
+            int currentId = 1;
+
+            // if statement to make sure that a new ID is created should the file already have items
+            if (prizes.Count > 0)
+            {
+                currentId = prizes.OrderByDescending(x => x.Id).First().Id + 1;
+            }
+
             model.Id = currentId;
 
             // Add the new record with the new ID (max + 1)
